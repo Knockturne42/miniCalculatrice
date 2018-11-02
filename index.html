@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>miniCalculatrice</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<form action="" id="nombreUn">
+			<label for="nombreUn">Premier nombre de 4 chiffres max</label>
+			<input type="text" name="nombreUn" placeholder="0000">
+		</form>
+		<select name="operator" id="operator">
+			<option value="addition">addition</option>
+			<option value="soustraction">soustraction</option>
+			<option value="multiplication">multiplication</option>
+			<option value="division">division</option>
+			<option value="modulo">modulo</option>
+		</select>
+		<form action="" id="nombreDeux">
+			<label for="nombreDeux">Deuxieme nombre de 4 chiffres max</label>
+			<input type="text" name="nombreDeux" placeholder="0000">
+		</form>
+		<div id="calculer">calculer</div>
+		<div id="resultat"></div>
+	</main>
+	<script type="text/javascript" language="javascript" src="js/script.js"></script>
+</body>
+</html>
